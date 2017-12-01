@@ -1,0 +1,39 @@
+#startup
+server:
+    port: 8088
+
+#Spring
+spring:
+    application:
+        name: bike
+
+
+#datasource
+    datasource:
+        # druid
+        driver-class-name: com.mysql.jdbc.Driver
+        filters: stat
+        maxActive: 20
+        initialSize: 1
+        maxWait: 60000
+        minIdle: 1
+        timeBetweenEvictionRunsMillis: 60000
+        minEvictableIdleTimeMillis: 300000
+        validationQuery: select 'x'
+        testWhileIdle: true
+        testOnBorrow: false
+        testOnReturn: false
+        poolPreparedStatements: true
+        maxOpenPreparedStatements: 20
+        type: com.alibaba.druid.pool.DruidDataSource
+    profiles:
+      active: dev
+
+#mybatis
+mybatis:
+    mapper-locations: classpath:com/minibike/bike/**/**/**.xml
+    type-aliases-package: classpath:com.minibike.**.entity
+
+#log
+logging:
+  config: classpath:logback.xml

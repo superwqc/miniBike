@@ -1,15 +1,11 @@
 # MiniBike
 
 ## 项目介绍
-    基于共享单车的B/S服务端实现，SpringBoot+Mybatis系统架构、Spring Security进行加密验证，Redis、MongoDB实现缓存，ActiveMQ消息队列，第三方服务：推送、短信、云存储
-
-
-### day1  SpringBoot整合Mybatis
+     基于共享单车的B/S服务端实现，SpringBoot+Mybatis系统架构、Spring Security进行加密验证，Redis、MongoDB实现缓存，ActiveMQ消息队列，第三方服务：推送、短信、云存储
 
 
 #### 后端技术:
-- Spring Framework
-- SpringMVC: MVC框架
+- SpringBoot 微服务构建
 - Spring secutity 安全框架
 - Spring session: 分布式Session管理
 - MyBatis: ORM框架
@@ -29,7 +25,6 @@
 - Navicat Premium: 数据库客户端
 
 #### 开发环境：
-
 - Jdk1.8
 - Mysql5.5
 - Redis

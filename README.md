@@ -5,8 +5,8 @@
 
 
 #### 后端技术:
-- SpringBoot 微服务构建
-- Spring secutity 安全框架
+- SpringBoot: 微服务架构
+- Spring secutity: 安全框架
 - Spring session: 分布式Session管理
 - MyBatis: ORM框架
 - MyBatis Generator: 代码生成
@@ -14,7 +14,7 @@
 - Redis: 分布式缓存数据库
 - ActiveMQ: 消息队列
 - Logback: 日志管理
-- Maven|Gradle: 项目构建管理
+- Maven: 项目构建管理
 
 #### 开发工具:
 - MySql: 数据库
